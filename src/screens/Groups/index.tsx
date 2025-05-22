@@ -1,11 +1,10 @@
-import { View, Text } from "react-native";
-import { Container, Title } from "./styles";
+import * as Group from "./styles";
 
 export function Groups() {
     return(
-        <Container>
-            <Title>Chamando screnn groups</Title>
-        </Container>
+        <Group.Container>
+            
+        </Group.Container>
      
     )
 }
