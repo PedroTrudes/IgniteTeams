@@ -1,9 +1,12 @@
 import { View, Text } from "react-native";
+import { Container, Title } from "./styles";
 
 export function Groups() {
     return(
-        <View>
-            <Text>Chamando screnn groups</Text>
-        </View>
+        <Container>
+            <Title>Chamando screnn groups</Title>
+        </Container>
+     
     )
 }
+
