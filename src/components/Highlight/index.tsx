@@ -1,5 +1,6 @@
 import { Text } from "react-native"
 import * as High from './styles';
+import { GroupCard } from "@components/GroupCard";
 
 type Props = {
     title: string,
