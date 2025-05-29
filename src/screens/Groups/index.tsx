@@ -12,6 +12,7 @@ export function Groups() {
             <GroupCard title="Galera Trudeslandia"/>
             <GroupCard title="Turma da Cheil"/>
             <GroupCard title="Turma do Fut"/>
+            <GroupCard title="Turma do Fut"/>
         </Group.Container>
      
     )
