@@ -11,6 +11,7 @@ export function Groups() {
             <Highlight title="Turmas" subtitle="Jogue com a sua turma"/>
             <GroupCard title="Galera Trudeslandia"/>
             <GroupCard title="Turma da Cheil"/>
+            <GroupCard title="Turma do Fut"/>
         </Group.Container>
      
     )
