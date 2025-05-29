@@ -1,0 +1,16 @@
+import { Text } from "react-native"
+import * as High from './styles';
+
+type Props = {
+    title: string,
+    subtitle: string
+}
+
+export function Highlight({title, subtitle} : Props) {
+    return(
+        <High.Container>
+            <High.Title>{title}</High.Title>
+            <High.Subtitle>{subtitle}</High.Subtitle>
+        </High.Container>
+    )
+}
