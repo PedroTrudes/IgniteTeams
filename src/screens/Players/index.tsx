@@ -13,7 +13,7 @@ import { Button } from "@components/Button";
 
 export function Players() {
     const [team, setTeam] = useState('Time A');
-    const [players, setPlayers] = useState(["Pedro", "Joao", "Paulo", "Julio", "Caio", "Enzo", "papa", "Thiago", "Thi"]);
+    const [players, setPlayers] = useState(["Pedro Joaquim", "Joao", "Paulo", "Julio", "Caio", "Enzo", "papa", "Thiago", "Thi"]);
 
     return(
         <Player.Container>
@@ -28,7 +28,6 @@ export function Players() {
                 <FlatList 
                 data={['Time A', 'Time B', 'Time C']} 
                 keyExtractor={item => item}
-                horizontal={true}
                 renderItem={({ item }) => (
                     <Filter 
                     title={item} 
@@ -36,8 +35,9 @@ export function Players() {
                     onPress={() => setTeam(item)}
                     />
                 )}
+                horizontal={true}
                 />
-                <Player.NumbersOfPlayers>{players.length}</Player.NumbersOfPlayers>
+                <Player.NumberOfPlayers>{players.length}</Player.NumberOfPlayers>
             </Player.ContainerRow>
 
             <FlatList 
